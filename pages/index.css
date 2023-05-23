@@ -10,7 +10,6 @@
   position: relative;
   color: #ffffff;
   box-sizing: border-box;
-  background: cover;
   z-index: -1;
 }
 .header {
@@ -127,8 +126,6 @@
 }
 .recipes {
   background-image: url(/images/background_recipes.svg);
-  position: center;
-  size: cover;
   margin: 0;
   min-height: 720px;
   max-height: 800px;
