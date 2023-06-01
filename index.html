@@ -160,7 +160,7 @@
               <input
                 type="email"
                 class="form__input"
-                id="guest-name"
+                id="guest-email"
                 name="GuestName"
                 placeholder="Your@email.com"
                 required
@@ -170,17 +170,18 @@
               <button type="submit" class="form__button">Book a Table</button>
             </fieldset>
             <fieldset class="fieldset__form">
-              <label class="form__label_checkbox">
-                <input
-                  type="checkbox"
-                  class="form__input_type_checkbox"
-                  name="I agree to these terms"
-                  id="I agree to these terms"
-                  required
-                />
-                <label for="I agree with the terms of use" class="form__label"></label>
+              <label class="form__label form__lable_checkbox">
+                <label for="I-agree" class="form__label_checkbox">
                   I agree with the terms of use</label
                 >
+                <input
+                  type="checkbox"
+                  for="I-agree"
+                  class="form__label_checkbox"
+                  name="I agree to these terms"
+                  id="checkbox"
+                  required
+                />
               </label>
               <!--<input-->
             </fieldset>
