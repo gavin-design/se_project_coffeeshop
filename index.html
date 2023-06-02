@@ -120,12 +120,9 @@
           </ul>
         </section>
         <section id="Menu" class="menu"></section>
-        <section
-          id="Reservation"
-          class="reservation reservation__title reservation__form"
-        >
-          <form class="form">
-            <h3 class="reservation__title">Book a Table</h3>
+        <section id="Reservation" class="reservation">
+          <h3 class="reservation__title">Book a Table</h3>
+          <form class="form reservation__form">
             <fieldset class="form__fieldset">
               <label for="guest-name" class="form__label">Name*</label>
               <input
@@ -174,9 +171,6 @@
             </fieldset>
             <fieldset class="form__fieldset">
               <label class="form__label">
-                <label class="form__label form__label_checkbox"
-                  >I agree with the terms of use</label
-                >
                 <input
                   type="checkbox"
                   class="form__label_checkbox"
@@ -184,6 +178,7 @@
                   id="checkbox"
                   required
                 />
+                <label class="form__label">I agree with the terms of use</label>
               </label>
               <!--<input-->
             </fieldset>
