@@ -253,8 +253,14 @@ video {
   margin-left: 20px;
 }
 .form__label_checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.form__checkbox {
   width: 20px;
   height: 20px;
-  margin-left: 30px;
   margin-right: 20px;
 }
