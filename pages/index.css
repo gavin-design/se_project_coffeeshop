@@ -292,6 +292,12 @@ video {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
   max-width: 780px;
   margin-top: 0;
   margin-bottom: 100px;
@@ -329,5 +335,6 @@ video {
   justify-content: space-between;
 }
 .card__list-divider {
-  inset-inline: 1px solid black;
+  flex-grow: 1;
+  border-bottom: 1px solid black;
 }
