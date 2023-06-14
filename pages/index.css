@@ -353,7 +353,7 @@ video {
 }
 .footer__social-heading {
   margin-top: 0;
-  margin-bottom: 20;
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: 20px;
 }
@@ -396,7 +396,7 @@ video {
   padding: 80px;
   background-color: #0a2850;
   color: white;
-  height: 482;
+  height: 482px;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
