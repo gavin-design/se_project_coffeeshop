@@ -12,11 +12,3 @@
   box-sizing: border-box;
   z-index: 1;
 }
-.logo {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  height: 142px;
-  width: 125px;
-  margin-bottom: 0;
-}
