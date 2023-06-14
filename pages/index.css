@@ -338,3 +338,113 @@ video {
   flex-grow: 1;
   border-bottom: 1px solid black;
 }
+.footer__content {
+  padding: 60px 102px 60px 80px;
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  color: #ffffff;
+  display: flex;
+  min-height: 224px;
+  justify-content: space-between;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer__social-heading {
+  margin-top: 0;
+  margin-bottom: 20;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer__logo {
+  width: 116px;
+  height: 21px;
+}
+.footer__list {
+  padding: 0;
+  margin: 0;
+}
+.footer__list-item {
+  margin-bottom: 16px;
+  list-style: none;
+}
+.footer__social-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer__social-icon {
+  margin-right: 10px;
+  height: 16px;
+  width: 16px;
+}
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
+.footer__copyright {
+  position: relative;
+  bottom: 80px;
+  left: 80px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  color: #ffffff;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  background-color: #0a2850;
+  color: white;
+  height: 482;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.about__title {
+  z-index: 2;
+  margin: 0;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 251px;
+}
+.about__content {
+  max-width: 660px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  list-style: none;
+  margin: 0;
+}
+
+.about__circle_animation-blurred {
+  transform-origin: center;
+  animation: pulsate 1.3s ease-in-out 0s infinite;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  left: -129px;
+  top: -152px;
+  z-index: 1;
+}
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.093);
+    opacity: 01;
+  }
+}
