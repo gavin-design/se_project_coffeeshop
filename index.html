@@ -119,6 +119,68 @@
             </li>
           </ul>
         </section>
+        <section id="Reservation" class="reservation">
+          <h3 class="reservation__title">Book a Table</h3>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="guest-name" class="form__label">Name*</label>
+              <input
+                type="text"
+                class="form__input"
+                id="guest-name"
+                name="GuestName"
+                placeholder="Name Surname"
+                required
+              />
+              <label for="guest-name" class="form__label"
+                >Number of Guests*</label
+              >
+              <input
+                type="number"
+                class="form__input"
+                min="1"
+                max="8"
+                id="guest-number"
+                name="GuestName"
+                placeholder="1-8"
+                required
+              />
+              <label for="datetime-local" class="form__label"
+                >Date & Time*</label
+              >
+              <input
+                type="datetime-local"
+                class="form__input form__input_datetime-local"
+                id="datetime-local"
+                name="GuestName"
+                required
+              />
+              <label for="guest-name" class="form__label">Your email*</label>
+              <input
+                type="email"
+                class="form__input"
+                id="guest-email"
+                name="GuestName"
+                placeholder="Your@email.com"
+                required
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <button type="submit" class="form__button">Book a Table</button>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label form__label_checkbox">
+                <input
+                  type="checkbox"
+                  class="form__checkbox"
+                  name="I agree to these terms"
+                  id="checkbox"
+                  required
+                />I agree with the terms of use
+              </label>
+            </fieldset>
+          </form>
+        </section>
         <section id="Menu" class="menu">
           <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
@@ -185,68 +247,6 @@
               </li>
             </ul>
           </div>
-        </section>
-        <section id="Reservation" class="reservation">
-          <h3 class="reservation__title">Book a Table</h3>
-          <form class="form reservation__form">
-            <fieldset class="form__fieldset">
-              <label for="guest-name" class="form__label">Name*</label>
-              <input
-                type="text"
-                class="form__input"
-                id="guest-name"
-                name="GuestName"
-                placeholder="Name Surname"
-                required
-              />
-              <label for="guest-name" class="form__label"
-                >Number of Guests*</label
-              >
-              <input
-                type="number"
-                class="form__input"
-                min="1"
-                max="8"
-                id="guest-number"
-                name="GuestName"
-                placeholder="1-8"
-                required
-              />
-              <label for="datetime-local" class="form__label"
-                >Date & Time*</label
-              >
-              <input
-                type="datetime-local"
-                class="form__input form__input_datetime-local"
-                id="datetime-local"
-                name="GuestName"
-                required
-              />
-              <label for="guest-name" class="form__label">Your email*</label>
-              <input
-                type="email"
-                class="form__input"
-                id="guest-email"
-                name="GuestName"
-                placeholder="Your@email.com"
-                required
-              />
-            </fieldset>
-            <fieldset class="form__fieldset">
-              <button type="submit" class="form__button">Book a Table</button>
-            </fieldset>
-            <fieldset class="form__fieldset">
-              <label class="form__label form__label_checkbox">
-                <input
-                  type="checkbox"
-                  class="form__checkbox"
-                  name="I agree to these terms"
-                  id="checkbox"
-                  required
-                />I agree with the terms of use
-              </label>
-            </fieldset>
-          </form>
         </section>
         <section class="about">
           <h3 class="about__title">About the coffee shop</h3>

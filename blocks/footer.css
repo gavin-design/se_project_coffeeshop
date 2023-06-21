@@ -1,6 +1,8 @@
-.footer__content {
+.footer {
   padding: 60px 102px 60px 80px;
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+}
+.footer__content {
   color: #ffffff;
   display: flex;
   min-height: 224px;
@@ -42,7 +44,7 @@
   color: #c1c1c1;
 }
 .footer__copyright {
-  position: relative;
+  /*position: relative;*/
   bottom: 80px;
   left: 80px;
   margin: 0;
