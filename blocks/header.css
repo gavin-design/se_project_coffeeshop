@@ -22,7 +22,7 @@
   color: #000;
   margin: 0;
 }
-.header__title_span-accent {
+.header__span-accent {
   position: absolute;
   top: 252px;
   left: 80px;
@@ -66,8 +66,7 @@
   padding: 0;
   margin: 0;
 }
-.header__footer-address {
-  position: absolute;
+.header__paragraph {
   margin: 0;
   right: 80px;
   bottom: 40px;
@@ -77,4 +76,11 @@
   color: #6f6f6f;
   line-height: 20px;
   list-style: none;
+}
+.header__hours {
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
+  color: #6f6f6f;
+  margin: 0;
 }
