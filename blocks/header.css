@@ -50,23 +50,26 @@
 }
 
 .header__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   font-size: 16px;
   color: #6f6f6f;
   line-height: 20px;
   list-style: none;
   padding: 0;
-  margin: 100px 0 40px;
+  margin: 100px 0 0;
 }
 .header__footer-address {
   display: flex;
   justify-content: flex-end;
+  width: 500px;
   color: #6f6f6f;
-  margin: 0 0 40px;
+  z-index: 2;
+  margin: 0;
 }
 .header__paragraph {
   margin: 0;
-  right: 80px;
-  bottom: 40px;
   display: flex;
   flex-direction: row;
   font-size: 16px;
@@ -76,5 +79,5 @@
 }
 .header__hours {
   color: #6f6f6f;
-  margin: 100px 0 40px;
+  margin: 100px 0 0;
 }
