@@ -1,5 +1,6 @@
 .header {
   height: 100vh;
+  background-image: url(../images/background_header.svg);
   min-height: 720px;
   max-height: 800px;
   min-width: 1100px;
@@ -10,8 +11,6 @@
   z-index: 1;
 }
 .header__title {
-  position: absolute;
-  top: 325px;
   z-index: 3;
   max-width: 729px;
   font-family: "Inter";
@@ -20,32 +19,27 @@
   line-height: 72px;
   font-weight: 500;
   color: #000;
-  margin: 0;
+  margin: 202px 0 0;
 }
 .header__span-accent {
-  position: absolute;
-  top: 252px;
-  left: 80px;
   font-family: Noto Serif;
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
   font-weight: 400;
   color: #2f80ed;
+  display: block;
   margin: 0;
   z-index: 2;
 }
 .header__description {
-  position: absolute;
-  top: 400px;
-  left: 80px;
   max-width: 683px;
   font-size: 20px;
   line-height: 30px;
   color: #000;
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 28px 0 0;
 }
 .header__image {
   z-index: 0;
@@ -56,15 +50,18 @@
 }
 
 .header__footer {
-  position: absolute;
-  bottom: 40px;
-  width: 500px;
   font-size: 16px;
   color: #6f6f6f;
   line-height: 20px;
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 100px 0 40px;
+}
+.header__footer-address {
+  display: flex;
+  justify-content: flex-end;
+  color: #6f6f6f;
+  margin: 0 0 40px;
 }
 .header__paragraph {
   margin: 0;
@@ -78,9 +75,6 @@
   list-style: none;
 }
 .header__hours {
-  position: absolute;
-  bottom: 40px;
-  right: 80px;
   color: #6f6f6f;
-  margin: 0;
+  margin: 100px 0 40px;
 }
