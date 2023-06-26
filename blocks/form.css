@@ -1,10 +1,6 @@
 .form {
   align-items: center;
 }
-.reservation__form {
-  max-width: 385px;
-  height: 624px;
-}
 .form__fieldset {
   border: none;
   padding: 0;
