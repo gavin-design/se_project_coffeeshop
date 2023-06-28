@@ -1,7 +1,7 @@
 .about {
   display: flex;
   justify-content: space-between;
-  padding: 100px 80px;
+  padding: 100px 80px 173px;
   background-color: #0a2850;
   color: white;
   overflow: hidden;
@@ -12,7 +12,7 @@
 .about__title {
   z-index: 2;
   margin: 0;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
